@@ -1,12 +1,36 @@
+# core
 base
 cloud-init
-hyperv
 linux
 mkinitcpio
 mkinitcpio-archiso
-open-vm-tools
 openssh
 pv
-qemu-guest-agent
 syslinux
+
+# video
+xorg
+mesa
+xf86-video-intel
+gdm
+xterm
+
+# audio
+alsa-utils
+alsa-tools
+
+# dev
+vim
+git
+base-devel
+python
+jq
+
+# gaming for gamers
+steam
+
+# virtualization
+hyperv
+open-vm-tools
+qemu-guest-agent
 virtualbox-guest-utils-nox
