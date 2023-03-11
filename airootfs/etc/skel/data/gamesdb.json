@@ -1,0 +1,35 @@
+{
+    "games" :
+    [
+        {
+            "title" : "GUILTY GEAR XX ACCENT CORE PLUS R",
+            "aliases" :
+            [
+                "+R", "PlusR"
+            ],
+            "appid" : 348550,
+            "proton" : true,
+            "supported" : true
+        },
+        {
+            "title" : "Guilty Gear Xrd REV 2",
+            "aliases" :
+            [
+                "Xrd", "Rev2", "rev24ev2"
+            ],
+            "appid" : 520440,
+            "proton" : true,
+            "supported" : false
+        },
+        {
+            "title" : "Them's Fightin' Herds",
+            "aliases" :
+            [
+                "TFH", "NotPonies"
+            ],
+            "appid" : 574980,
+            "proton" : false,
+            "supported" : false
+        }
+    ]
+}
