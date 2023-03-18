@@ -27,6 +27,7 @@ git
 base-devel
 python
 jq
+archinstall
 
 # gaming for gamers
 ttf-liberation
