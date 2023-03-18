@@ -8,12 +8,14 @@ openssh
 pv
 syslinux
 
-# video
+# X
 xorg
+xorg-xinit
+xterm
+
+# gfx
 mesa
 xf86-video-intel
-gdm
-xterm
 
 # audio
 alsa-utils
@@ -27,6 +29,7 @@ python
 jq
 
 # gaming for gamers
+ttf-liberation
 steam
 
 # virtualization
@@ -34,3 +37,6 @@ hyperv
 open-vm-tools
 qemu-guest-agent
 virtualbox-guest-utils-nox
+
+# network
+networkmanager

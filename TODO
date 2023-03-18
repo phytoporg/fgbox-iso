@@ -1,2 +1,13 @@
-- Start x for default user
-- Prompt for steam credentials on launch (?)
+- Oof! the whole approach so far has been wrong
+
+New TODOs
+- Create installer using archinstall
+-- Initially, assume HW config and target game (hp minipc and +R)
+- Needs to launch steam for authentication, game download and configuration on first boot
+
+So then, packages need updating:
+- basics
+- archinstall
+- python
+
+Remaining packages are added via archinstall

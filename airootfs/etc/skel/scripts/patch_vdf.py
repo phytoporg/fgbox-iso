@@ -99,8 +99,8 @@ def main(args):
     for data_path_token in args.data_path.split('.'):
         data_path_traversed.append(data_path_token)
         if data_path_token not in data_iter:
-            print(f'Invalid data path: {args.data_path}, got to {".".join(data_path_traversed)}', file=sys.stderr)
-            exit(1)
+            print(f'Creating new path node: {".".join(data_path_traversed)}')
+            data_iter[data_path_token] = dict()
 
         prev_iter = data_iter
         data_iter = data_iter[data_path_token]
