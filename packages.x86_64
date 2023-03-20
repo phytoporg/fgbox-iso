@@ -8,35 +8,22 @@ openssh
 pv
 syslinux
 
-# X
-xorg
-xorg-xinit
-xterm
-
-# gfx
-mesa
-xf86-video-intel
-
-# audio
-alsa-utils
-alsa-tools
+# Installation
+parted
+dosfstools
+extra/arch-install-scripts
 
 # dev
 vim
 git
 base-devel
 python
-jq
-archinstall
-
-# gaming for gamers
-ttf-liberation
-steam
+python-setuptools
+python-pip
 
 # virtualization
 hyperv
 open-vm-tools
-qemu-guest-agent
 virtualbox-guest-utils-nox
 
 # network
